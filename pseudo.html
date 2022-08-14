@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            color: aliceblue;
+        }
+        h1:hover{
+            color: skyblue;
+            background-color: seagreen;
+            /* margin: 50px;
+            padding: 50px;
+            font-size: 50px; */
+            font-weight: 700;
+        }
+        .middle-person:focus{
+            color: blue;
+            font-weight: 700;
+        }
+        a:visited{
+            color: brown;
+        }
+
+        li:nth-child(2n){
+            color: crimson;
+        }
+        li:nth-child(2n+1){
+            color: darkblue;
+            background-color: darkgrey;
+        }
+        li:first-child{
+            color: darkred;
+        }
+        h3::before{
+            content: 'Hello ';
+        }
+        .special::after{
+            content: ' !!';
+            font-size: larger;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>This is normal</h1>
+    <input type="text">
+    <input class="middle-person" type="text">
+    <input type="text">
+    <br>
+    <a href="https://mail.google.com/mail/">Gmail</a>
+    <a href="https://www.google.com/">Google</a>
+    <a href="https://web.programming-hero.com/">Never Go</a>
+    <br>
+    <h3> Elements -1</h3>
+    <h3 class="special"> Elements -2</h3>
+    <h3> Elements -3</h3>
+    <h3> Elements -4</h3>
+    <h3 class="special"> Elements -5</h3>
+    <h3>Elements -6</h3>
+    <br>
+    <ui>
+        <li>List -1</li>
+        <li>List -2</li>
+        <li>List -3</li>
+        <li>List -4</li>
+        <li>List -5</li>
+        <li>List -6</li>
+    </ui>
+</body>
+</html>   
